@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Essential for mobile responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dejohn's Life Journey | Education</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loading-overlay">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container">
+        <h1>My Education</h1>
+        <p class="subtitle">Academic achievements and learning experiences</p>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="main-nav">
+      <div class="container nav-container">
+        <div class="nav-brand">
+          <span>Dejohn</span>
+        </div>
+
+        <!-- Hamburger menu for mobile -->
+        <button class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <div class="nav-links" id="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="childhood.html" class="nav-link">Childhood</a>
+          <a href="education.html" class="nav-link active">Education</a>
+          <a href="skills.html" class="nav-link">Skills</a>
+          <a href="future.html" class="nav-link">Future</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="container">
+        <section class="education-timeline">
+          <h2>Academic Journey</h2>
+
+          <div class="timeline">
+            <div class="timeline-item current">
+              <h3>Kirinyaga University</h3>
+              <p class="timeline-date">2023 - Present</p>
+              <p>
+                <strong>Course:</strong> Bachelor of Science in Software
+                Engineering
+              </p>
+              <p>Currently pursuing my degree with focus on:</p>
+              <ul>
+                <li>Programming Fundamentals</li>
+                <li>Web Development</li>
+                <li>Database Systems</li>
+                <li>Software Engineering Principles</li>
+              </ul>
+            </div>
+
+            <div class="timeline-item">
+              <h3>Nyambaria Boys High School</h3>
+              <p class="timeline-date">2019 - 2022</p>
+              <p>
+                <strong>Achievement:</strong> Kenya Certificate of Secondary
+                Education (KCSE)
+              </p>
+              <p>Key experiences:</p>
+              <ul>
+                <li>Developed strong foundation in Mathematics and Sciences</li>
+                <li>Participated in academic clubs and competitions</li>
+                <li>Learned discipline and time management</li>
+                <li>
+                  Built problem-solving skills through challenging coursework
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="achievements-section">
+          <h2>Academic Achievements</h2>
+          <div class="achievements-grid">
+            <div class="achievement-item">
+              <h3>Academic Performance</h3>
+              <p>
+                Consistently maintained high grades in programming and software
+                development courses at university level.
+              </p>
+            </div>
+            <div class="achievement-item">
+              <h3>Project Work</h3>
+              <p>
+                Successfully completed multiple web development projects
+                applying classroom knowledge to practical scenarios.
+              </p>
+            </div>
+            <div class="achievement-item">
+              <h3>Technical Skills</h3>
+              <p>
+                Developed proficiency in HTML, CSS, JavaScript through
+                coursework and self-directed learning.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="extracurricular-section">
+          <h2>University Life & Activities</h2>
+          <p>
+            Beyond academics, I actively participate in university life through
+            sports, gaming communities, and technology-related activities that
+            complement my software engineering studies.
+          </p>
+
+          <div class="activities-grid">
+            <div class="activity-item">
+              <h3>Sports & Teamwork</h3>
+              <p>
+                Playing football with university teams to develop collaboration
+                and strategic thinking.
+              </p>
+            </div>
+            <div class="activity-item">
+              <h3>Tech Communities</h3>
+              <p>
+                Engaging with fellow students in programming discussions and
+                project collaborations.
+              </p>
+            </div>
+            <div class="activity-item">
+              <h3>Personal Projects</h3>
+              <p>
+                Building personal websites and applications to apply theoretical
+                knowledge practically.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="learning-approach">
+          <h2>My Learning Philosophy</h2>
+          <p>
+            I believe in combining theoretical knowledge with practical
+            application. My approach includes:
+          </p>
+          <div class="approach-points">
+            <div class="approach-item">
+              <h4>Hands-On Practice</h4>
+              <p>Building projects to reinforce classroom concepts</p>
+            </div>
+            <div class="approach-item">
+              <h4>Collaborative Learning</h4>
+              <p>Working with peers to solve complex problems</p>
+            </div>
+            <div class="approach-item">
+              <h4>Continuous Improvement</h4>
+              <p>
+                Regularly updating skills through online resources and practice
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div class="page-navigation">
+          <a href="childhood.html" class="nav-button prev">← Childhood</a>
+          <a href="skills.html" class="nav-button next">Skills →</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Dejohn</p>
+        <p class="footer-links">
+          <a href="https://github.com/Ve_lein" target="_blank">GitHub</a> |
+          <a href="contact.html">Contact Me</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">↑</button>
+
+    <!-- Dark Mode Toggle -->
+    <div class="theme-toggle">
+      <button id="theme-toggle-btn">
+        <span class="theme-icon">🌙</span>
+        <span class="theme-text">Dark Mode</span>
+      </button>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

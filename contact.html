@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dejohn's Life Journey | Contact</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loading-overlay">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container">
+        <h1>Contact Me</h1>
+        <p class="subtitle">Get in touch or connect with me online</p>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="main-nav">
+      <div class="container nav-container">
+        <div class="nav-brand">
+          <span>Dejohn</span>
+        </div>
+
+        <button class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="childhood.html" class="nav-link">Childhood</a>
+          <a href="education.html" class="nav-link">Education</a>
+          <a href="skills.html" class="nav-link">Skills</a>
+          <a href="future.html" class="nav-link">Future</a>
+          <a href="contact.html" class="nav-link active">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="container">
+        <div class="contact-wrapper">
+          <section class="contact-info">
+            <h2>Contact Details</h2>
+
+            <div class="contact-methods">
+              <div class="contact-item">
+                <h3>Email</h3>
+                <p>infor.masai.org@gmail.com</p>
+                <p class="contact-note">
+                  I typically respond within 24-48 hours
+                </p>
+              </div>
+
+              <div class="contact-item">
+                <h3>GitHub Profile</h3>
+                <p>
+                  <a
+                    href="https://github.com/Ve_lein"
+                    target="_blank"
+                    class="external-link"
+                  >
+                    github.com/Ve_lein
+                  </a>
+                </p>
+                <p class="contact-note">
+                  View my projects and code repositories
+                </p>
+              </div>
+
+              <div class="contact-item">
+                <h3>Social Media</h3>
+                <p>
+                  <a
+                    href="https://www.tiktok.com/@dejohn_snippetz"
+                    target="_blank"
+                    class="external-link"
+                  >
+                    TikTok: @dejohn_snippetz
+                  </a>
+                </p>
+                <p class="contact-note">Follow for tech tips and content</p>
+              </div>
+
+              <div class="contact-item">
+                <h3>University</h3>
+                <p>Kirinyaga University</p>
+                <p class="contact-note">Software Engineering Student</p>
+              </div>
+            </div>
+
+            <div class="contact-note-box">
+              <h3>For University Assessment</h3>
+              <p>
+                This portfolio is part of my web development assessment. Feel
+                free to explore all pages to see my complete journey from
+                childhood to future aspirations.
+              </p>
+            </div>
+          </section>
+
+          <!-- Contact Form with Character Counter -->
+          <section class="contact-form-section">
+            <h2>Send Me a Message</h2>
+            <p>
+              Fill out the form below and I'll get back to you as soon as
+              possible.
+            </p>
+
+            <!-- Alert container -->
+            <div id="alertBox" class="alert-box"></div>
+
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Enter your full name"
+                />
+                <div id="nameError" class="error-message"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="Enter your email address"
+                />
+                <div id="emailError" class="error-message"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject (Optional)</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="What is your message about?"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  required
+                  placeholder="Type your message here..."
+                  maxlength="500"
+                ></textarea>
+                <div class="char-counter">
+                  <span id="char-count">0</span>/500 characters
+                </div>
+                <div id="messageError" class="error-message"></div>
+              </div>
+
+              <div class="form-group">
+                <button type="submit" class="submit-button">
+                  Send Message
+                </button>
+                <p class="form-note">Fields marked with * are required</p>
+              </div>
+            </form>
+          </section>
+        </div>
+
+        <section class="social-connect">
+          <h2>Connect With Me</h2>
+          <div class="social-links">
+            <a
+              href="https://github.com/Ve_lein"
+              target="_blank"
+              class="social-link github"
+            >
+              <span>GitHub</span>
+              <span class="link-desc">View my code & projects</span>
+            </a>
+
+            <a
+              href="https://www.tiktok.com/@dejohn_snippetz"
+              target="_blank"
+              class="social-link tiktok"
+            >
+              <span>TikTok</span>
+              <span class="link-desc">Tech content & tips</span>
+            </a>
+
+            <div class="social-link email">
+              <span>Email</span>
+              <span class="link-desc">infor.masai.org@gmail.com</span>
+            </div>
+          </div>
+        </section>
+
+        <div class="page-navigation">
+          <a href="future.html" class="nav-button prev">← Future Aspirations</a>
+          <a href="index.html" class="nav-button next">Back to Home →</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Dejohn</p>
+        <p class="footer-links">
+          <a href="https://github.com/Ve_lein" target="_blank">GitHub</a> |
+          <a href="contact.html">Contact Me</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">↑</button>
+
+    <!-- Dark Mode Toggle -->
+    <div class="theme-toggle">
+      <button id="theme-toggle-btn">
+        <span class="theme-icon">🌙</span>
+        <span class="theme-text">Dark Mode</span>
+      </button>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
